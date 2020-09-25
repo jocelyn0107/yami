@@ -36,6 +36,21 @@ a,a:link {
 .user{
     float:right;
 }
+#burger{
+    position: absolute;
+    display: none;
+    right: 5%;
+    width: 20px;
+    height: 20px;
+}
+#burger.mobile span{
+    display: block;
+    background:#000;
+    height: 3px;
+}
+#burger.mobile span:nth-child(2){
+    margin: 3px 0;
+}
 #tnb li{
     display: inline-block;
     margin-left: 15px;
@@ -141,7 +156,7 @@ a,a:link {
 }
 /*================main===============*/
 #main{
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 #main h2{
