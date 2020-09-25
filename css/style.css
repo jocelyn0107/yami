@@ -102,7 +102,7 @@ a,a:link {
 }
 /*================slide================*/
 #slide{
-    height: 200px;
+    height: 400px;
     overflow: hidden;
     position: relative;
 }
@@ -115,14 +115,19 @@ a,a:link {
     color: #fff;
     text-shadow: 0 0 5px #333;
     left: 50%;
-    top:50px;
-    transform: translateX(-50%);
+    top:50%;
+    transform: translate(-50%,-50%);
 }
 .slogan h4{
     font-size: 35px;
+    font-weight: 900;
 }
+/*=============for slider===*/
 .bx-wrapper {
     border: 0;
+}
+.slider img{
+    height: 400px;
 }
 /*================icons================*/
 #icons{
